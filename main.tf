@@ -1,7 +1,7 @@
 resource "aws_s3_bucket" "terraform-bucket" {
     bucket = "My-terraform-tfstate-file-bucket-1"
     tags = {
-        Name = "first-bucket"
+        Name = "My-terraform-tfstate-file-bucket-1"
         Env = "Dev"
         Owner = "Rushikesh"
     }
